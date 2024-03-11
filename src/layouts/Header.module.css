@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #e1e1e1;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.logo{
+    width: 45px;
+    margin-left: 40px;
+}
+.header div{
+    display: flex;
+}
+.header span{
+    display: flex;
+    align-items: center;
+    color: gray;
+    height: 50px;
+}
+.header span p{
+    margin-right: 5px;
+    font-size: 0.9rem;
+}
+.button{
+    background-color: #b40000;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    margin-right: 40px;
+    text-align: center;
+    font-size: 0.9rem;
+}
